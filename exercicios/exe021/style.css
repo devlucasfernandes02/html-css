@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+}
+
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-size: 3em;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.352);
+    
+}
+
+header {
+    background-color: white;
+
+    border: 2px solid black;
+    border-style: solid;
+
+    padding: 5px ;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: lightslategray;
+    padding: 4px;
+    box-shadow: 4px 3px 2px 1px rgba(0, 0, 0, 0.539);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-right: 5px;
+    
+   
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+article {
+    
+    text-align: justify;
+    padding: 5px;
+}
+
+article > aside {
+    background-color: lightslategray;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bolder;
+    
+}
+
+section#assuntos {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    font-style: italic;
+    border-radius: 40px 40px;
+    margin: 10px 0px 10px 0px;
+    box-shadow: 4px 5px 4px 6px rgba(0, 0, 0, 0.615);
+}
+
+p.p2 {
+    background-color: rgb(152, 150, 150);
+    font-style: normal;
+}
+
+p#paragrafo1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    
+}
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+   
+}

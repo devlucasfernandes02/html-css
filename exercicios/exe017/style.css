@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+     font-family: 'work Sans' Arial, Helvetica, sans-serif;
+     /* 
+     Medidas Absolutas
+     cm, mm, in, px , pt, pc
+     
+     Medidas Relativas
+     em, ex, rem, vw, vh, %
+
+     px e em
+     16px geralmemnte = 1em
+     */
+     font-size: 1em;
+     font-weight: 900;
+    /* 
+    lighter, normal, bold, bolder
+    */
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+h1, h2 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
