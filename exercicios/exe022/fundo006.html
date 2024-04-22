@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 97vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - bakcground 
+                color > image > position > repeat [size] > attachament
+            */
             
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,7 +36,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempore velit consequatur cum sint laboriosam maxime nesciunt asperiores soluta, consequuntur esse blanditiis! Impedit obcaecati voluptatibus iste quo dolorem doloribus ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid est, quos rerum eligendi ratione laudantium pariatur quas cum necessitatibus adipisci dicta. Nobis dignissimos at aperiam? Non tenetur exercitationem accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit ullam quae numquam nemo molestiae perferendis distinctio obcaecati sed explicabo voluptatum architecto iusto non exercitationem, deleniti alias ipsam consequuntur et.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempore velit consequatur cum sint laboriosam maxime nesciunt asperiores soluta, consequuntur esse blanditiis! Impedit obcaecati voluptatibus iste quo dolorem doloribus ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid est, quos rerum eligendi ratione laudantium pariatur quas cum necessitatibus adipisci dicta. Nobis dignissimos at aperiam? Non tenetur exercitationem accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit ullam quae numquam nemo molestiae perferendis distinctio obcaecati sed explicabo voluptatum architecto iusto non exercitationem, deleniti alias ipsam consequuntur et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem earum nulla vel ipsa itaque! Nobis molestiae labore porro officiis. Expedita ipsa ullam suscipit, repudiandae dolor eaque facere provident quisquam animi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, similique? Consequuntur at deleniti quam obcaecati fuga sunt cupiditate sequi earum? Aliquid asperiores, tempora praesentium nam molestiae libero impedit voluptatem eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsa vel sapiente veritatis? In blanditiis labore voluptate itaque delectus odio, quo pariatur odit ea dolor doloribus aliquam, eum quas tempora? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quasi voluptatibus dicta quia nobis exercitationem expedita, odio rerum corporis dolorem, rem maxime qui ipsam reprehenderit incidunt illum minima delectus laudantium? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ipsam voluptates provident quidem sapiente odio totam rerum. Laboriosam, aspernatur ad earum et aliquam unde animi, optio, reprehenderit odit est tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ea id fugit, reiciendis possimus cumque inventore quam velit iure commodi omnis voluptatibus dolor non, praesentium placeat fuga! Doloremque, sapiente perspiciatis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim minus ea aperiam eum porro? Voluptatem placeat dicta quis, sit aliquid quos veniam debitis sint possimus velit culpa voluptates quas! Ipsa!</p>
     </main>
 </body>
 </html>
